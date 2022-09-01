@@ -39,12 +39,12 @@ console.log(pokeInfo)
        <h1>Name: {name}</h1>
       <h2>Type: {pokeInfo?.types[0].type.name}</h2>
       <ul>
-        <li>{pokeInfo?.stats[0].stat.name}:{pokeInfo?.stats[0].base_stat} </li>
-        <li>{pokeInfo?.stats[1].stat.name}:{pokeInfo?.stats[1].base_stat} </li>
-        <li> {pokeInfo?.stats[5].stat.name}:{pokeInfo?.stats[5].base_stat} </li>
-        <li> {pokeInfo?.stats[2].stat.name}:{pokeInfo?.stats[2].base_stat} </li>
-        <li> {pokeInfo?.stats[3].stat.name}:{pokeInfo?.stats[3].base_stat} </li>
-        <li> {pokeInfo?.stats[4].stat.name}:{pokeInfo?.stats[4].base_stat} </li>
+        <li>{pokeInfo?.stats[0].stat.name}:{pokeInfo?.stats[0].base_stat} %.</li>
+        <li>{pokeInfo?.stats[1].stat.name}:{pokeInfo?.stats[1].base_stat} %.</li>
+        <li> {pokeInfo?.stats[5].stat.name}:{pokeInfo?.stats[5].base_stat} %.</li>
+        <li> {pokeInfo?.stats[2].stat.name}:{pokeInfo?.stats[2].base_stat} %.</li>
+        <li> {pokeInfo?.stats[3].stat.name}:{pokeInfo?.stats[3].base_stat} %.</li>
+        <li> {pokeInfo?.stats[4].stat.name}:{pokeInfo?.stats[4].base_stat} %.</li>
   
       </ul>
    </div>
