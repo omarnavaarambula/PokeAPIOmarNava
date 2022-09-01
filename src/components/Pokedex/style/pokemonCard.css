@@ -1,0 +1,123 @@
+.card {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 1px 7px #0003;
+  border: 7px solid #B1DBBC;
+  cursor: pointer;
+  transition: transform 200ms ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 200ms ease;
+}
+.card__header {
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  position: relative;
+  height: 220px;
+}
+
+.bg-normal{
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+
+}
+.bg-fire {
+  background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-bug{
+  background: linear-gradient(176.37deg, #6F4E37 -32.26%, rgba(227, 88, 37, 0.603) 22.55%, #a77d60 125.72%);
+}
+.bg-grass{
+  background: linear-gradient(176.37deg, #2d572c -32.26%, #375637 22.55%, #3c9f3b 125.72%);
+
+}
+.bg-water{
+
+  background: linear-gradient(176.37deg, #6da3f9 -32.26%, #448bfd 22.55%, #2274f8 125.72%);
+}
+.bg-electric{
+
+  background: linear-gradient(176.37deg, #f9f76d -32.26%,  #fffc4f  22.55%,  #fffc37  125.72%);
+}
+.bg-ghost{
+  background: linear-gradient(176.37deg, #3303ab -32.26%,   #4218ad   22.55%,   #543a96   125.72%);
+}
+.bg-dark{
+  background: linear-gradient(176.37deg, #100137 -32.26%,   #231449   22.55%,   #312d3c   125.72%);
+}
+.bg-ice{
+  background: linear-gradient(176.37deg, #53baff -32.26%,   #86cfff   22.55%,   #caeaff   125.72%);
+}
+.bg-ground{
+  background: linear-gradient(176.37deg, #5c2600  -32.26%,   #431f069d    22.55%,   #573b289d   125.72%);
+}
+.bg-rock{
+  background: linear-gradient(176.37deg, #5e5d5d  -32.26%,   #828181   22.55%,   #c9c9c9    125.72%);
+}
+.card__avatar {
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  top: 15px;
+  transform: translateX(-50%);
+}
+.card__body {
+  margin-top: 70px;
+}
+.card__name {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+.card__list-type{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.card__item-type{
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.card__item-type:nth-child(2){
+  position: relative;
+}
+.card__item-type:nth-child(2)::before {
+  content: '/';
+  position: absolute;
+  left: -11px;
+  font-weight: 500;
+}
+.card__hr{
+  border: none;
+  border-top: 0.5px solid #E5E5E5;
+}
+.card__footer{
+  margin: 15px 0 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card__list-stats{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.card__stat-title {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+}
